@@ -3070,7 +3070,7 @@ img.u-pull-left {
     padding          : 0;
     margin           : 0;
     opacity          : .20;
-    z-index: 999;
+    z-index          : 3;
 }
 
 .s-intro__particles canvas {
@@ -3304,6 +3304,8 @@ img.u-pull-left {
 .no-js .s-intro__content-bottom,
 .ss-show .s-intro__content-bottom {
     transition-delay : .6s;
+    position: relative;
+    z-index: 50;
 }
 
 .no-js .s-intro__scroll,
